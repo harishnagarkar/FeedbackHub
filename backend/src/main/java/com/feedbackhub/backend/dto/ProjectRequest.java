@@ -1,0 +1,11 @@
+package com.feedbackhub.backend.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class ProjectRequest {
+    private String name;
+    private String websiteUrl;
+}
